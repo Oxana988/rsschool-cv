@@ -73,3 +73,19 @@ body {
     border-radius: 5px;
 }
 /*Header styles end*/
+
+/*Main styles start*/
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-section {
+    width: 31%;
+    align-self: stretch;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #333333;
+}
+.photo img {
+    width: 100%;
+    border: 2px solid #333333;

@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}  
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.cv {
+    margin: 0 auto;
+    background-color: white;
+    /*max-width: 1440px;*/
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}

@@ -27,7 +27,7 @@ Belarusian National Technical University
 + Russian – native speaker
 + English – A2 (in process). I am studing English on the YesToday course.
 
-# Code Example
+## Code Example
 ```
 function isPalindrome(line) {
   line = String(line);

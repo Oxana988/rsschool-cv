@@ -89,3 +89,39 @@ body {
 .photo img {
     width: 100%;
     border: 2px solid #333333;
+}
+.ul-contacts {
+    padding: 0;
+    margin-bottom: 50px;
+    list-style: none;
+}
+.li-contact {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+}
+.li-contact a, .place {
+    font-size: 20px;
+    color: white;
+}
+.contacts {
+    padding-top: 10px;
+}
+.contact {
+    padding-left: 20px;
+}
+.icon {
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding-top: 7px;
+    font-size: 25px;
+    color: rgb(71, 172, 71);
+    border: 2px solid rgb(71, 172, 71);
+}

@@ -26,7 +26,7 @@
             </div>
         </header>
         <main class="main">
-            <div class="container">
+            <div class="container main-container">
                 <aside class="left-section">
                     <div class="photo">
                         <img src="./assets/images/photo.jpg" alt="Photo">
@@ -79,7 +79,7 @@
                         <h1 class="name">Oxana Savianok</h1>
                         <p>Future Front-End developer</p>
                     </div>
-                    <section class="about-me" id="about me">
+                    <section class="subsection about-me" id="about me">
                         <h2 class="title">About me</h2>
                         <p>
                         Hello, my name is Oxana. I am 33 years old. I am an engineer. I design some constructions
@@ -91,11 +91,28 @@
                         in the front-end. And my goal is to become a junior JS developer.
                         </p>
                     </section>
-                    <section class="education">
+                    <section class="subsection education">
                         <h3 class="subtitle">Education</h3>
                         <p>
                         Belarusian National Technical University,<br>Faculty of Mechanics and Technology
                         </p>
+                    </section>
+                    <section class="subsection code-example" id="code example">
+                        <h2 class="title code-title">Code example</h2>
+                        <pre class="pre"><code class="code">function getMiddle(s) {
+  str = s.length;
+                            
+  if (str === 1) {
+    return s;
+  } else if (str % 2 === 0) {
+    return `${s[str / 2 - 1]}${s[str / 2]}`;
+  } else {
+    return `${s[Math.floor(str / 2)]}`;
+  }
+}</code></pre>
+                    </section>
+                    <section class="subsection projects">
+                        <h2 class="title">Projects</h2>
                     </section>
                 </div>
             </div>

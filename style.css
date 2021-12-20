@@ -131,6 +131,9 @@ body {
     color: rgb(71, 172, 71);
     border: 2px solid rgb(71, 172, 71);
 }
+.contact a:hover {
+    color: rgb(71, 172, 71);
+}
 .skill {
     padding: 0 30px;
 }
@@ -266,4 +269,8 @@ body {
 }
 .rss {
     text-align: end;
+}
+.gh:hover, .rss:hover {
+    opacity: 75%;
+    transition: 0.3s;
 }

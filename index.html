@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://file.myfontastic.com/Bi95G4Yxjh4TPe94SQNDmB/icons.css" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico">
+    <title>My CV</title>
+</head>
+<body>
+    <div class="cv">
+        <header class="header">
+            <div class="container">
+                <nav class="header-nav">
+                    <ul class="header-ul">
+                        <li class="header-li"><a href="#about me" class="header-link">About me</a></li>
+                        <li class="header-li"><a href="#skills" class="header-link">Skills</a></li>
+                        <li class="header-li"><a href="#code example" class="header-link">Code example</a></li>
+                        <li class="header-li"><a href="#projects" class="header-link">Projects</a></li>
+                        <!--<li class="header-li"><a href="#video" class="header-link">Video</a></li>-->
+                        <li class="header-li"><a href="#contacts" class="header-link">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main-container">
+                <aside class="left-section">
+                    <div class="photo">
+                        <img src="./assets/images/photo.jpg" alt="Photo">
+                    </div>
+                    <section class="contacts" id="contacts">
+                        <h2 class="white-title">Contacts</h2>
+                        <div class="underlined"></div>
+                        <ul class="ul-contacts">
+                            <li class="li-contact">
+                                <i class="icon-phone icon"></i>
+                                <div class="contact">
+                                    <span>Phone:</span>
+                                    <br>
+                                    <a href="tel:+375293715758">+375 29 371-57-58</a>
+                                </div>
+                            </li>
+                            <li class="li-contact">
+                                <i class="icon-mail icon"></i>
+                                <div class="contact">
+                                    <span>Email:</span>
+                                    <br>
+                                    <a href="mailto:Oxana8833@gmail.com">Oxana8833@gmail.com</a>
+                                </div>
+                            </li>
+                            <li class="li-contact">
+                                <i class="icon-map-marker icon"></i>
+                                <div class="contact">
+                                    <span>Location</span>
+                                    <br>
+                                    <span class="place">Minsk, Belarus</span> 
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skill" id="skills">
+                        <h2 class="white-title">Skills</h2>
+                        <div class="underlined"></div>
+                        <ul class="ul-skills">
+                            <li class="li-skill">Engineering</li>
+                            <li class="li-skill">HTML</li>
+                            <li class="li-skill">CSS</li>
+                            <li class="li-skill">JavaScript</li>
+                            <li class="li-skill">Git</li>
+                            <li class="li-skill">Figma</li>
+                        </ul>
+                    </section>
+                </aside>
+                <div class="main-section">
+                    <div class="title-name">
+                        <h1 class="name">Oxana Savianok</h1>
+                        <p>Future Front-End developer</p>
+                    </div>
+                    <section class="subsection about-me" id="about me">
+                        <h2 class="title">About me</h2>
+                        <p>
+                        Hello, my name is Oxana. I am 33 years old. I am an engineer. I design some constructions
+                        and mechanisms. I work with steel and other materials. I like my job, but I want to upgrade
+                        my skills. I want to develop all of my life.
+                        <br>
+                        Web programming is constantly growing and changing. I think that I can be part of it. That is
+                        the main reason why I’ve decided to try something new (rs school). I want to gain some knowledge
+                        in the front-end. And my goal is to become a junior JS developer.
+                        </p>
+                    </section>
+                    <section class="subsection education">
+                        <h3 class="subtitle">Education</h3>
+                        <p>
+                        Belarusian National Technical University,<br>Faculty of Mechanics and Technology
+                        </p>
+                    </section>
+                    <section class="subsection languages">
+                        <h3 class="subtitle">Languages</h3>
+                        <ul class="ul-lang">
+                            <li>Russian – native speaker</li>
+                            <li>English – A2 (in process). I am studing English on the YesToday course.</li>
+                        </ul>
+                    </section>
+                    <section class="subsection code-example" id="code example">
+                        <h2 class="title code-title">Code example</h2>
+                        <pre class="pre"><code class="code">function getMiddle(s) {
+  str = s.length;
+                            
+  if (str === 1) {
+    return s;
+  } else if (str % 2 === 0) {
+    return `${s[str / 2 - 1]}${s[str / 2]}`;
+  } else {
+    return `${s[Math.floor(str / 2)]}`;
+  }
+}</code></pre>
+                    </section>
+                    <section class="subsection projects" id="projects">
+                        <h2 class="title">Projects</h2>
+                        <div class="projects-section">
+                            <div class="project">
+                                <a href="https://oxana988.github.io/rsschool-cv/" target="_blank">
+                                    <img src="./assets/images/project1.jpg" alt="My CV">
+                                </a>
+                                <div class="info-project">
+                                    <h4 class="title-project">My CV</h4>
+                                    <div class="underlined project-underlined"></div>
+                                    <p class="description"> CV displays professional achievements and skills during the study period.</p>
+                                    <p class="technologies">HTML, CSS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <ul class="ul-footer">
+                    <li class="li-footer gh"><a href="https://github.com/Oxana988" target="_blank">
+                        <img src="./assets/svg/github.svg" height="50" alt=""></a></li>
+                    <li class="li-footer year"><span class="year_font">2021</span></li>
+                    <li class="li-footer rss"><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg"
+                    height="50" alt="" class="rs"></a></li>        
+                </ul>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

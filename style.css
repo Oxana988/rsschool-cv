@@ -133,6 +133,7 @@ body {
 }
 .contact a:hover {
     color: rgb(71, 172, 71);
+    transition: 0.3s;
 }
 .skill {
     padding: 0 30px;
@@ -251,6 +252,54 @@ body {
     border: 7px solid rgb(71, 172, 71);
     border-radius: 9px;
     background: rgb(157, 247, 157);
+}
+.projects-section {
+    display: flex;
+    justify-content: space-around;
+}
+.project {
+    width: 350px;
+    margin-bottom: 20px;
+    border: 7px solid rgb(71, 172, 71);
+    border-radius: 9px;
+}
+.project:hover {
+    box-shadow: 0 0 10px 10px #616161;
+    transition: 0.3s;
+}
+.project img {
+    display: block;
+    width: 100%;
+}
+.info-project {
+    background-color: #333333;
+    padding: 10px 15px 10px 15px;
+    margin-top: -6px;
+}
+.title-project {
+    position: relative;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+.project-underlined {
+    height: 2px;
+}
+.description {
+    display: block;
+    text-align: justify;
+    margin: 15px 0;
+    padding: 8px;
+    background-color: rgb(157, 247, 157);
+    border-radius: 3px;
+}
+.technologies {
+    margin: 0;
+    color: rgb(71, 172, 71);
 }
 .ul-footer {
     display: flex;

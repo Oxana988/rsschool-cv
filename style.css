@@ -44,7 +44,7 @@ body {
     margin: 0 auto;
     background-color: white;
     max-width: 1440px;
-    box-shadow: 20px 20px 40px 5px rgb(119, 119, 119);
+    box-shadow: 0 0 40px 5px rgb(119, 119, 119);
     /*max-width: 1440px;*/
 }
 .container {

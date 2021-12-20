@@ -248,7 +248,9 @@ body {
 .pre {
     margin: 0 auto;
     padding: 20px 40px;
-    background: rgb(128, 221, 128);
+    border: 7px solid rgb(71, 172, 71);
+    border-radius: 9px;
+    background: rgb(157, 247, 157);
 }
 .ul-footer {
     display: flex;
@@ -271,6 +273,10 @@ body {
     text-align: end;
 }
 .gh:hover, .rss:hover {
-    opacity: 75%;
+    opacity: 70%;
     transition: 0.3s;
 }
+/*.rs:hover {
+    filter: invert(50%) sepia(84%) saturate(90%) hue-rotate(120deg)
+    brightness(87%) contrast(80%);
+}*/

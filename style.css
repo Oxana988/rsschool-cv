@@ -43,6 +43,8 @@ body {
 .cv {
     margin: 0 auto;
     background-color: white;
+    max-width: 1440px;
+    box-shadow: 20px 20px 40px 5px rgb(119, 119, 119);
     /*max-width: 1440px;*/
 }
 .container {
@@ -71,6 +73,11 @@ body {
     color: white;
     border: 3px solid rgb(71, 172, 71);
     border-radius: 5px;
+}
+.header-link:hover {
+    color: rgb(71, 172, 71);
+    background-color: #505050;
+    transition: 0.3s;
 }
 /*Header styles end*/
 
@@ -137,6 +144,8 @@ body {
 }
 .main-section {
     width: 69%;
+    margin: 0 auto;
+    padding: 0;
     /*padding: 0 30px 30px 30px;*/
 }
 .name {
@@ -179,7 +188,7 @@ body {
     padding: 15px 80px;
     font-size: 24px;
     font-style: italic;
-    background-color: rgb(86, 184, 86);
+    background-color: rgb(71, 172, 71);
 }
 .subsection {
     padding: 0 30px;
@@ -236,7 +245,7 @@ body {
 .pre {
     margin: 0 auto;
     padding: 20px 40px;
-    background: rgb(140, 197, 82);
+    background: rgb(128, 221, 128);
 }
 .ul-footer {
     display: flex;

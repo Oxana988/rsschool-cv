@@ -94,6 +94,8 @@ body {
     padding: 0 10px;
     border: 3px solid rgb(71, 172, 71);
     border-radius: 5px;
+    background-color: #333333;
+    z-index: 10;
 }
 .header-burger:hover {
     background-color: #505050;

@@ -44,7 +44,7 @@ body {
     margin: 0 auto;
     background-color: white;
     max-width: 1440px;
-    box-shadow: 0 0 40px 5px rgb(119, 119, 119);
+    box-shadow: 0 0 40px 5px #777777;
     /*max-width: 1440px;*/
 }
 .container {
@@ -126,7 +126,7 @@ body {
     flex-wrap: wrap;
 }
 .left-section {
-    width: 31%;
+    width: 35%;
     align-self: stretch;
     margin: 0;
     background-color: #333333;
@@ -154,10 +154,10 @@ body {
     color: white;
 }
 .contacts {
-    padding: 10px 30px 0 30px;
+    padding: 10px 25px 0 25px;
 }
 .contact {
-    padding-left: 20px;
+    padding-left: 17px;
 }
 .icon {
     text-align: center;
@@ -167,29 +167,71 @@ body {
     border-radius: 20px;
     padding-top: 7px;
     font-size: 25px;
-    color: rgb(71, 172, 71);
-    border: 2px solid rgb(71, 172, 71);
+    color: #47AC47;
+    border: 2px solid #47AC47;
+}
+.icon-telegram {
+    padding-right: 4px;
 }
 .contact a:hover {
-    color: rgb(71, 172, 71);
+    color: #47AC47;
     transition: 0.3s;
 }
 .skill {
-    padding: 0 30px;
+    padding: 0 25px;
 }
 .ul-skills {
-    font-size: 26px;
     color: white;
 }
 .li-skill {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 33px;
 }
 .main-section {
-    width: 69%;
+    position: relative;
+    width: 65%;
     margin: 0 auto;
     padding: 0;
     /*padding: 0 30px 30px 30px;*/
+}
+.photo-main {
+    /*display: flex;*/
+    justify-content: space-between;
+    padding-bottom: 1px;
+    background-color: #333333;
+    display: none;
+}
+.avatar {
+    width: 54%;
+}
+.avatar img {
+    width: 100%;
+    border: 2px solid #333333;
+}
+.decoration {
+    position: relative;
+    width: 23%;
+    background: linear-gradient(to top, #333333, #969696);
+}
+.decoration-left {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(215deg, #47AC47 14.5%, transparent 14.5%, transparent 17.5%, #47AC47 17.5%, #47AC47 31.5%, 
+    transparent 31.5%, transparent 34.5%, #47AC47 34.5%,#47AC47 48.5%, transparent 48.5%, transparent 51.5%, #47AC47 51.5%,
+    #47AC47 65.5%, transparent 65.5%, transparent 68.5%, #47AC47 68.5%,#47AC47 82.5%, transparent 82.5%, transparent 85.5%,
+    #47AC47 85.5%, #47AC47 100%);
+}
+.decoration-right {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(145deg, #47AC47 14.5%, transparent 14.5%, transparent 17.5%, #47AC47 17.5%, #47AC47 31.5%, 
+    transparent 31.5%, transparent 34.5%, #47AC47 34.5%,#47AC47 48.5%, transparent 48.5%, transparent 51.5%, #47AC47 51.5%,
+    #47AC47 65.5%, transparent 65.5%, transparent 68.5%, #47AC47 68.5%,#47AC47 82.5%, transparent 82.5%, transparent 85.5%,
+    #47AC47 85.5%, #47AC47 100%);
 }
 .name {
     width: 100%;
@@ -291,6 +333,8 @@ body {
     border: 7px solid rgb(71, 172, 71);
     border-radius: 9px;
     background: rgb(157, 247, 157);
+    overflow-x: auto;
+    /*overflow: scroll;*/
 }
 .projects-section {
     display: flex;
@@ -301,9 +345,10 @@ body {
     margin-bottom: 20px;
     border: 7px solid rgb(71, 172, 71);
     border-radius: 9px;
+    background-color: #333333;
 }
 .project:hover {
-    box-shadow: 0 0 10px 10px #616161;
+    box-shadow: 0 0 6px 6px #616161;
     transition: 0.3s;
 }
 .project img {
@@ -374,6 +419,42 @@ body {
 /*Footer styles end*/
 
 /*Media start*/
+@media (max-width: 1024px) {
+    .left-section {
+        width: 100%;
+        order: 2;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ul-contacts {
+        columns: 2;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .ul-skills {
+        columns: 2;
+        padding-left: 40px;
+    }
+    .photo {
+        display: none;
+    }
+    .main-section {
+        width: 100%;
+    }
+    .photo-main {
+        display: flex;
+    }
+    .name {
+        padding-top: 50px;
+    }
+    .contacts {
+        width: 100%;
+        order: 2;
+    }
+    .skill {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .header-container {
@@ -452,5 +533,79 @@ body {
     .menu-close-line:last-child {
         transform: translateY(-50%) rotate(-45deg);
     }
+    .ul-contacts {
+        columns: 1;
+    }
+    .avatar {
+        width: 80%;
+    }
+    .name {
+        padding-top: 40px;
+    }
 }
 
+@media (max-width: 635px) {
+    .ul-skills {
+        columns: 1;
+    }
+    .name {
+        font-size: 45px;
+        padding-left: 50px;
+    }
+    .title-name p {
+        padding-left: 50px;
+    }
+    .ul-footer {
+        flex-wrap: wrap;
+    }
+    .year {
+        order: 3;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 520px) {
+    .decoration {
+        display: none;
+    }
+    .avatar {
+        width: 100%;
+    }
+    .photo-main {
+        padding-bottom: 0;
+    }
+    .avatar img {
+        border: 4px solid #333333;
+        border-bottom: 2px;
+    }
+    .li-footer {
+        width: 100%;
+    }
+    .gh,
+    .rss {
+        text-align: center;
+    }
+    .rss,
+    .year {
+        padding-top: 20px;
+    }
+    .name {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 420px) {
+    .name {
+        font-size: 40px;
+        padding-left: 35px;
+    }
+    .title-name p {
+        font-size: 22px;
+        padding-left: 35px;
+    }
+    .ul-contacts {
+        padding-left: 0;
+    }
+    .contact-email a {
+        font-size: 16px;
+    }
+}

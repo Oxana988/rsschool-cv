@@ -76,11 +76,11 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     color: white;
-    border: 3px solid rgb(71, 172, 71);
+    border: 3px solid #98d06b;
     border-radius: 5px;
 }
 .header-link:hover {
-    color: rgb(71, 172, 71);
+    color: #98d06b;
     background-color: #505050;
     transition: 0.3s;
 }
@@ -92,7 +92,7 @@ body {
     width: 60px;
     height: 42px;
     padding: 0 10px;
-    border: 3px solid rgb(71, 172, 71);
+    border: 3px solid #98d06b;
     border-radius: 5px;
     background-color: #333333;
     z-index: 10;
@@ -169,14 +169,14 @@ body {
     border-radius: 20px;
     padding-top: 7px;
     font-size: 25px;
-    color: #47AC47;
-    border: 2px solid #47AC47;
+    color: #98d06b;
+    border: 2px solid #98d06b;
 }
 .icon-telegram {
     padding-right: 4px;
 }
 .contact a:hover {
-    color: #47AC47;
+    color: #98d06b;
     transition: 0.3s;
 }
 .skill {
@@ -220,20 +220,20 @@ body {
     margin-right: auto;
     width: 50px;
     height: 100%;
-    background: linear-gradient(215deg, #47AC47 14.5%, transparent 14.5%, transparent 17.5%, #47AC47 17.5%, #47AC47 31.5%, 
-    transparent 31.5%, transparent 34.5%, #47AC47 34.5%,#47AC47 48.5%, transparent 48.5%, transparent 51.5%, #47AC47 51.5%,
-    #47AC47 65.5%, transparent 65.5%, transparent 68.5%, #47AC47 68.5%,#47AC47 82.5%, transparent 82.5%, transparent 85.5%,
-    #47AC47 85.5%, #47AC47 100%);
+    background: linear-gradient(215deg, #98d06b 14.5%, transparent 14.5%, transparent 17.5%, #98d06b 17.5%, #98d06b 31.5%, 
+    transparent 31.5%, transparent 34.5%, #98d06b 34.5%,#98d06b 48.5%, transparent 48.5%, transparent 51.5%, #98d06b 51.5%,
+    #98d06b 65.5%, transparent 65.5%, transparent 68.5%, #98d06b 68.5%,#98d06b 82.5%, transparent 82.5%, transparent 85.5%,
+    #98d06b 85.5%, #98d06b 100%);
 }
 .decoration-right {
     margin-left: auto;
     margin-right: auto;
     width: 50px;
     height: 100%;
-    background: linear-gradient(145deg, #47AC47 14.5%, transparent 14.5%, transparent 17.5%, #47AC47 17.5%, #47AC47 31.5%, 
-    transparent 31.5%, transparent 34.5%, #47AC47 34.5%,#47AC47 48.5%, transparent 48.5%, transparent 51.5%, #47AC47 51.5%,
-    #47AC47 65.5%, transparent 65.5%, transparent 68.5%, #47AC47 68.5%,#47AC47 82.5%, transparent 82.5%, transparent 85.5%,
-    #47AC47 85.5%, #47AC47 100%);
+    background: linear-gradient(145deg, #98d06b 14.5%, transparent 14.5%, transparent 17.5%, #98d06b 17.5%, #98d06b 31.5%, 
+    transparent 31.5%, transparent 34.5%, #98d06b 34.5%,#98d06b 48.5%, transparent 48.5%, transparent 51.5%, #98d06b 51.5%,
+    #98d06b 65.5%, transparent 65.5%, transparent 68.5%, #98d06b 68.5%,#98d06b 82.5%, transparent 82.5%, transparent 85.5%,
+    #98d06b 85.5%, #98d06b 100%);
 }
 .name {
     width: 100%;
@@ -243,7 +243,7 @@ body {
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
-    color: rgb(71, 172, 71);
+    color: #98d06b;
     text-shadow: 1px 1px 0 #000,
     -1px 1px 0 #000,
     1px -1px 0 #000,
@@ -275,7 +275,7 @@ body {
     padding: 15px 80px;
     font-size: 24px;
     font-style: italic;
-    background-color: rgb(71, 172, 71);
+    background-color: #98d06b;
 }
 .subsection {
     padding: 0 30px;
@@ -312,7 +312,7 @@ body {
     margin-top: 5px;
     width: 100%;
     height: 3px;
-    background: rgb(71, 172, 71);
+    background: #98d06b;
 }
 .subtitle {
     position: relative;
@@ -332,9 +332,9 @@ body {
 .pre {
     margin: 0 auto;
     padding: 20px 40px;
-    border: 7px solid rgb(71, 172, 71);
+    border: 7px solid  #98d06b;
     border-radius: 9px;
-    background: rgb(157, 247, 157);
+    background: #c7f3a0;
     overflow-x: auto;
     /*overflow: scroll;*/
 }
@@ -345,7 +345,7 @@ body {
 .project {
     width: 350px;
     margin-bottom: 20px;
-    border: 7px solid rgb(71, 172, 71);
+    border: 7px solid #98d06b;
     border-radius: 9px;
     background-color: #333333;
 }
@@ -380,12 +380,12 @@ body {
     text-align: justify;
     margin: 15px 0;
     padding: 8px;
-    background-color: rgb(157, 247, 157);
+    background-color: #c7f3a0;
     border-radius: 3px;
 }
 .technologies {
     margin: 0;
-    color: rgb(71, 172, 71);
+    color: #98d06b;
 }
 /*Main styles end*/
 
@@ -397,7 +397,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 15px 50px;
-    background-color: rgb(71, 172, 71);
+    background-color: #98d06b;
 }
 .li-footer {
     width: 140px;
@@ -495,7 +495,7 @@ body {
         text-align: center;
         margin-bottom: 15px;
         /*padding: 6px 12px;*/
-        border: 3px solid rgb(71, 172, 71);
+        border: 3px solid #98d06b;
         border-radius: 5px;
     }
     .header-li:last-child {

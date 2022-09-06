@@ -84,6 +84,10 @@ body {
     background-color: #505050;
     transition: 0.3s;
 }
+.menu-close {
+    font-size: 0px;
+    color: transparent;
+}
 .header-burger {
     display: none;
     position: absolute;
@@ -515,6 +519,8 @@ body {
         top: 15px;
         right: 15px;
         z-index: 11;
+        color: transparent;
+        font-size: 0px;
     }
     .menu-close:hover {
         opacity: 75%;
